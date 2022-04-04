@@ -4,16 +4,6 @@
   
   <head>
     <title>Class 01 lab</title>
-    <!-- Internal Styling 
-    <style>
-      body {
-        background-color: lightgrey;
-      }
-      h1 {
-        background-color: charcoal;
-        color: black;
-      }
-      </style>-->
   
   </head>
 
@@ -24,50 +14,37 @@
     </header>
     
     <main>
-      <!-- Paragraph element with INLINE styling 
-      <p style="background-color: lightpink; color: blue;">What is your name?</p> -->
       <h1>Class 1 Lab </h1>
-          <script>
-      <!--console.log('Hey world hey!!'); -->
+      
+      <p style="background-color: green; color: lightgrey;">What is your name?</p>
+      <p style="background-color: red; color: blue;">Could you give me an adjective please?</p>
+      <p style="background-color: orange; color: indigo;">Now I need a noun, could you give me one of those?</p>  
+      <p style="background-color: yellow; color: violet;">Now all I need is a verb. I promise this is the last one I need; what have you got?</p>      
+      
+    </main>
 
-      <p style="background-color: red; color: blue;">
+    <script>
       let responseOne = prompt('What is your name?');
       alert('Hello ' + responseOne + '!');
       console.log('user response to name inquiry was: ' + responseOne);
       
-      </p>
-      
-      <p style="background-color: orange; color: indigo;">
+           
       let responseTwo = prompt('I am working on a madlib. Could you give me an adjective please?');
       alert(responseOne + ', ' + responseTwo + ' is a great one, thanks!');
       console.log('user response to adjective request was: ' + responseTwo);
       
-      </p>
-
-      <p background-color: yellow;
-        color: violet;>
       let responseThree = prompt('Now I need a noun, could you give me one of those?');
-      alert('Oh ' + responseOne + ', you are full of gold! PURE GOLD! So we have ' + responseTwo + ' as our adjective and ' + responseThree + ' for the noun space.');
+      alert('Oh ' + responseOne + ', these are gold! PURE GOLD! So we have ' + responseTwo + ' as our adjective and ' + responseThree + ' for the noun space.');
       console.log('user response to noun request was: ' + responseThree);
       
-      </p>
-      
-      <p background-color: green;
-        color: lightgrey;>
-      let responseFour = prompt('Now all I need is a verb. I promise this is the last one I need. What have you got?');
+            
+      let responseFour = prompt('Now all I need is a verb. I promise this is the last one I need; what have you got?');
       alert('Fantastic! OK here is the madlib: My classmate, ' + responseOne + ' loves searching for ' + responseTwo + ' at antique shops so that he can ' + responseFour + ' them and trade them for ' + responseThree + ' at the flea market.');
       console.log('user response to verb request was: ' + responseFour);
-         
-      </p>
-      
+                
     </script>
-      
-    </main>
     
-    <footer>
-    </footer>
-
-    <!-- SCRIPT TAG -->
+    <footer>    </footer>
 
   </body>
 </html>
