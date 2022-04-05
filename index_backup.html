@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!-- The following is a modified version of the 201 Course Repo Class 01 Demo -->
+  
+  <head>
+    <title>Class 01 lab</title>
+  
+  </head>
+
+  <body>
+    <header>
+
+  
+    </header>
+    
+    <main>
+      <h1 style="background-color: black; color:magenta;">Class 01 lab</h1>
+      
+      <p style="background-color: green; color: lightgrey;">What is your name?</p>
+      <p style="background-color: red; color: blue;">Could you give me an adjective please?</p>
+      <p style="background-color: orange; color: indigo;">Now I need a plural noun, could you give me one of those?</p>  
+      <p style="background-color: yellow; color: violet;">Now all I need is a verb. I promise this is the last one I need; what have you got?</p>      
+      
+    </main>
+
+    <script>
+      let responseOne = prompt('What is your name?');
+      alert('Hello ' + responseOne + '!');
+      console.log('user response to name inquiry was: ' + responseOne);
+      
+           
+      let responseTwo = prompt('I am working on a MadLib. Could you give me an adjective please?');
+      alert(responseOne + ', ' + responseTwo + ' is a great one, thanks!');
+      console.log('user response to adjective request was: ' + responseTwo);
+      
+      let responseThree = prompt('Now I need a noun, could you give me one of those?');
+      alert('Oh ' + responseOne + ', these are gold! PURE GOLD! So we have ' + responseTwo + ' as our adjective and ' + responseThree + ' for the noun space.');
+      console.log('user response to noun request was: ' + responseThree);
+      
+            
+      let responseFour = prompt('Now all I need is a verb. I promise this is the last one I need; what have you got?');
+      alert('Fantastic! OK here is the madlib: My classmate, ' + responseOne + ' loves searching for ' + responseTwo + ' at antique shops so that he can ' + responseFour + ' them and trade them for ' + responseThree + ' at the flea market.');
+      console.log('user response to verb request was: ' + responseFour);
+                
+    </script>
+    
+    <footer>    </footer>
+
+  </body>
+</html>
